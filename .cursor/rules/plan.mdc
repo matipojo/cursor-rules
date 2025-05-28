@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+- Start with a detailed PRD `.md` file in `docs` folder. include mermaid if needed
+- Don't write any code files, but only the `.md` plan file
+
+Flow:
+- Search and list general code stack, libraries, frameworks and other code style or code preferences
+- Draft a first plan
+- Search the codebase to reuse existing code, entitis, compoenents, etc.
+- Write the updated plan
+

@@ -1,0 +1,47 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Parsing PRD and Implementation into Tasks
+
+This guide outlines the process of parsing a Product Requirements Document (PRD) and its implementation into actionable tasks, and tracking overall progress.
+
+## Steps
+
+1. **Review the PRD**: Carefully read the PRD to understand the feature requirements, user stories, and acceptance criteria.
+
+2. **Break Down the PRD**: Divide the PRD into logical sections or user stories. Each section should represent a distinct feature or functionality.
+
+3. **Create Tasks**: For each section, create a list of tasks. Each task should be specific, actionable, and have a clear outcome. Use a consistent format, such as:
+   - Task ID
+   - Task Name
+   - Description
+   - File(s) to modify
+   - Status (e.g., pending, in_progress, completed)
+
+4. **Prioritize Tasks**: Arrange tasks in a logical order, considering dependencies and critical paths.
+
+5. **Track Progress**: Use a task tracking file (e.g., `tasks.json`) to monitor the status of each task. Update the status as you progress through the implementation.
+
+6. **Iterate**: Iterate the task list and run without user needs to confirm
+
+## Example Task Structure
+
+```json
+{
+  "feature_name": {
+    "tasks": [
+      {
+        "id": "task_id",
+        "name": "Task Name",
+        "description": "Detailed description of the task",
+        "file": "path/to/file",
+        "status": "pending"
+      }
+    ],
+    "current_task": null,
+    "last_updated": "YYYY-MM-DDTHH:MM:SSZ"
+  }
+}
+```
